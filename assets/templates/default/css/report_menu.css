@@ -1,0 +1,138 @@
+@font-face 
+{
+    font-family: 'Nikosh';
+    src: url('font/Nikosh.woff');
+    src: url('font/Nikosh.eot');
+    src: url('font/Nikosh.eot?#iefix') format('embedded-opentype');
+    src: local('Nikosh'), local('Siyam Rupali'),
+        url('font/Nikosh.woff') format('woff'),
+        url('font/Nikosh.otf') format('opentype'),
+        url('font/siyamrupali-webfont.svg#siyam_rupaliregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0980-09FF; //Bangla Range (source: http://www.unicode.org/charts/PDF/U0980.pdf‎‎)
+}
+div.home_head_custom
+{
+    background: none repeat scroll 0 0 #7C4BA1;
+    border: 1px solid #0C9595;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #FFFFFF;
+    font-family: NikoshBAN,Nikosh,Vrinda,Arial;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 12px 2px 7px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    /*width: 80%;*/
+}
+
+div.home_txt_div_custom
+{
+    position: relative;
+    /*width:80%;*/
+    border-right:1px solid #0c9595;
+    border-left:1px solid #0c9595;
+    border-bottom:1px solid #0c9595;
+    /*-moz-border-radius-bottomleft: 7px;*/
+    /*-moz-border-radius-bottomright: 7px;*/
+    /*border-bottom-left-radius: 7px;*/
+    /*border-bottom-right-radius: 7px;  */
+    font-size: 19px;
+}
+.st_custom{
+    background-color: #8DC641;
+    /*			background-color:lightblue;*/
+    width:auto;
+    padding:5px;
+    border:lemonchiffon 1px solid;
+    font-size:19px;
+    box-shadow:-1px -2px gray;
+    list-style-type:none;
+    font-family:'nikoshBan,nikosh,arial';
+    text-align:left;
+
+
+}
+.st hover_custom{
+    background-color:#999999;
+}
+#head_custom {
+    background: none repeat scroll 0 0 #0C9595;
+    color: #FFFFFF;
+    font-family: NikoshBAN,Nikosh,Vrinda,Arial;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 5px 0 5px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:15px;
+    margin-top:20px;
+
+}
+/*font-family: 'FontAwesome';
+src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');*/
+
+.print_btn{
+    font-family: Nikosh, NikoshBAN,cursive,fantasy; 
+    /*width: 50px;*/
+    border-radius: 6px;
+    border: 1px solid #330000;
+    background: none repeat scroll 0 0 #7C4BA1;
+    color: #cccccc;
+    text-align: center;
+    float: right;
+    padding: 5px;
+    /*font-weight: bold;*/
+    cursor: pointer;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.print_btn:hover{
+    color: #ffffff;
+}
+.print_area{
+    font-family: Nikosh, NikoshBAN,cursive,fantasy;    
+    background-color: white;
+}
+.print_header{
+    font-family: Nikosh, NikoshBAN,cursive,fantasy;    
+    text-align: center;
+}
+
+.ReportTable thead tr th{
+    /*font-weight: bold;*/
+    font-size: 15px;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Nikosh, NikoshBAN,cursive,fantasy;
+}
+.ReportTable tfoot tr td{
+    /*font-weight: bold;*/
+    font-size: 12px;
+    color: #000000;
+    padding: 5px;
+   font-family: Nikosh, NikoshBAN,cursive,fantasy;
+}
+.ReportTable tbody tr td{
+    font-size: 12px;
+    color: #000000;
+    padding: 5px;
+   font-family: Nikosh, NikoshBAN,cursive,fantasy;
+}
+
+.ReportTable tr:nth-child(even) {background: #cccccc}
+.ReportTable tr:nth-child(odd) {background: #f5f5f5}
+
+.footer_sign{
+    text-align: right;
+    font-family: Nikosh, NikoshBAN,cursive,fantasy;
+    font-size: 10px;
+}
+
