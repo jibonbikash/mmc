@@ -1,0 +1,75 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['WEBSITE_TITLE'] = 'ডিজিটাল সেন্টার ম্যানেজমেন্ট সিস্টেম';
+$lang['ENTREPRENEUR_REGISTRATION']	= 'উদ্যোক্তা রেজিস্ট্রেশন';
+
+
+$lang['TYPE'] = 'ধরন';
+$lang['DIVISION'] = 'বিভাগ';
+$lang['ZILLA'] = 'জেলা';
+$lang['UPAZILLA'] = 'উপজেলা';
+$lang['UNION'] = 'ইউনিয়ন';
+$lang['UNION_PARISHAD']	= 'ইউনিয়ন পরিষদ';
+$lang['UNION_DIGITAL_CENTER'] = 'ইউনিয়ন ডিজিটাল সেন্টার';
+$lang['DIGITAL_CENTER'] = 'ডিজিটাল সেন্টার';
+$lang['CITY_CORPORATION'] = 'সিটি কর্পোরেশন';
+$lang['MUNICIPALITY'] = 'পৌরসভা';
+$lang['MUNICIPALITY_WARD'] = 'পৌরসভা ওয়ার্ড';
+$lang['WARD_NO'] = 'ওয়ার্ড নং';
+$lang['DIGITAL_CENTER_NAME'] = 'ডিজিটাল সেন্টারের নাম';
+$lang['EMAIL'] = 'ই-মেইল';
+$lang['SECRETARY_EMAIL'] = 'সচিবের ই-মেইল';
+$lang['ENTREPRENEUR_EMAIL'] = 'উদ্যোক্তার ই-মেইল';
+$lang['MOBILE_NO'] = 'মোবাইল নম্বর';
+$lang['SECRETARY_MOBILE_NO'] = 'সচিবের মোবাইল নম্বর';
+$lang['ENTREPRENEUR_MOBILE_NO'] = 'উদ্যোক্তার মোবাইল নম্বর';
+$lang['ADDRESS'] = 'ঠিকানা';
+$lang['SECRETARY_ADDRESS'] = 'সচিবের ঠিকানা';
+$lang['ENTREPRENEUR_ADDRESS'] = 'উদ্যোক্তার ঠিকানা';
+$lang['SECRET_QUESTION'] = 'গোপনীয় প্রশ্ন';
+$lang['QUESTION_ANSWER'] = 'প্রশ্ন উত্তর';
+$lang['USER_PROFILE_PIC'] = 'ইউজারের প্রোফাইল ছবি';
+$lang['DIGITAL_CENTER_RELATED_INFO'] = 'ডিজিটাল সেন্টার সম্পর্কিত তথ্য';
+$lang['SECRETARY_RELATED_INFO'] = 'সচিব সম্পর্কিত তথ্য';
+$lang['ENTREPRENEUR_RELATED_INFO'] = 'উদ্যোক্তা সম্পর্কিত তথ্য';
+$lang['NAME'] = 'নাম';
+$lang['ENTREPRENEUR_NAME'] = 'উদ্যোক্তার নাম';
+$lang['SECRETARY_NAME'] = 'সচিবের নাম';
+$lang['GENDER'] = 'লিঙ্গ';
+$lang['ENTREPRENEUR_GENDER'] = 'উদ্যোক্তার লিঙ্গ';
+$lang['MALE'] = 'পুরুষ';
+$lang['FEMALE'] = 'মহিলা';
+$lang['MOTHERS_NAME'] = 'মাতার নাম';
+$lang['ACADEMIC_QUALIFICATION'] = 'শিক্ষাগত যোগ্যতা';
+$lang['ENTREPRENEUR_ACADEMIC_QUALIFICATION'] = 'উদ্যোক্তার শিক্ষাগত যোগ্যতা';
+$lang['ENTREPRENEUR_TYPE'] = 'উদ্যোক্তার ধরন';
+$lang['ENTREPRENEUR'] = 'উদ্যোক্তা';
+$lang['DEVICE_RELATED_INFO'] = 'ডিভাইস সম্পর্কিত তথ্যসমূহ';
+$lang['NOVICE_ENTREPRENEUR'] = 'শিক্ষানবীশ উদ্যোক্তা';
+$lang['CONNECTION_TYPE'] = 'কানেকশন টাইপ';
+$lang['MODEM'] = 'মডেম';
+$lang['IP_ADDRESS'] = 'আইপি এড্রেস';
+$lang['EQUIPMENT'] = 'উপকরন';
+$lang['DETAIL'] = 'বিস্তারিত';
+$lang['NUMBER'] = 'সংখ্যা';
+$lang['STATUS'] = 'অবস্থা';
+$lang['DELETE'] = 'মুছুন';
+$lang['ADD_MORE'] = 'যোগ করুন';
+$lang['SAVE'] = 'সংরক্ষন';
+$lang['FILE_SIZE_LIMITATION'] = 'ফাইল সাইজ ১০০kb এর মধ্যে হতে হবে';
+
+
+$lang['CLOSE'] = 'বন্ধ';
+$lang['PDF'] = 'পিডিএফ';
+$lang['PRINT'] = 'প্রিন্ট';
+$lang['SERIAL'] = 'ক্রমিক';
+$lang['NUMBER_OF_CENTER'] = "সেবার সংখ্যা";
+$lang['TOTAL_INCOME'] = "মোট আয়";
+$lang['DATA_NOT_FOUND'] = "কোন ডাটা খুজে পাওয়া যায়নি।";
+$lang['YESTERDAY_TOP_SERVICE_PROVIDER_TITLE'] = "তারিখে শীর্ষ বিশ সেবা দানকারী ইউআইএসসির তালিকা ";
+$lang['YESTERDAY_TOP_INCOME_PROVIDER_TITLE'] = "তারিখে শীর্ষ বিশ মুনাফা অর্জনকারী ইউআইএসসির তালিকা";
+$lang['LAST_SEVEN_DAYS_TOP_SERVICE_PROVIDER_TITLE'] = "বিগত সাত দিনে %s তারিখে শীর্ষ বিশ সেবা দানকারী ইউআইএসসির তালিকা ";
+$lang['LAST_SEVEN_DAYS_TOP_INCOME_TITLE'] = "বিগত সাত দিনে %s তারিখে শীর্ষ বিশ মুনাফা অর্জনকারী ইউআইএসসির তালিকা 	";
+$lang['LAST_MONTH_TOP_SERVICE_PROVIDER_TITLE'] = "%s  - এ শীর্ষ বিশ সেবা দানকারী ইউআইএসসির তালিকা  	";
+$lang['LAST_MONTH_TOP_INCOME_TITLE'] = "%s - এ শীর্ষ বিশ মুনাফা অর্জনকারী ইউআইএসসির তালিকা 	";
